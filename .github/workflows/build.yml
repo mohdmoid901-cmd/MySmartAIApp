@@ -1,4 +1,4 @@
-name: Build Perfect Kivy APKnew
+name: Build Perfect Kivy APK
 
 on:
   push:
