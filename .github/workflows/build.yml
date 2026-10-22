@@ -20,8 +20,7 @@ jobs:
     - name: Install Buildozer Dependencies
       run: |
         sudo apt-get update
-        sudo apt-get install -y build-essential ccache git libffi-dev libssl-dev
-        sudo apt-get install -y openjdk-17-jdk zip unzip pkg-config autoconf automake libtool zlib1g-dev
+        sudo apt-get install -y build-essential ccache git libffi-dev libssl-dev openjdk-17-jdk zip unzip pkg-config autoconf automake libtool zlib1g-dev
         pip install --upgrade pip
         pip install buildozer cython requests
 
